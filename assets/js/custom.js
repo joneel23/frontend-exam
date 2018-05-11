@@ -20,4 +20,12 @@ jQuery(document).ready(function($){
 
     $("#searchZipcode").easyAutocomplete(options);
 
+    //select category
+
+    $("#category").on('change', function(){
+       var cat_val = $(this).val();
+       console.log(cat_val);
+       $('#myModal').modal('show');
+    });
+
 });

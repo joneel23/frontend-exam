@@ -84,9 +84,18 @@
                             <select id="category" placeholder="Click to choose a legal category" class="form-control">
                                 <!--<option>Click to choose a legal category</option>-->
                                 <option value="" selected disabled>Click to choose a legal category</option>
-                                <option value="">A</option>
-                                <option value="">B</option>
-                                <option value="">C</option>
+                                <option value="1">Family</option>
+                                <option value="2">Criminal Defense</option>
+                                <option value="3">Business</option>
+                                <option value="4">Personal Injury</option>
+                                <option value="5">Bankruptcy & Finances</option>
+                                <option value="6">Product & Services</option>
+                                <option value="7">Employment</option>
+                                <option value="8">Real Estate</option>
+                                <option value="9">Immigration</option>
+                                <option value="10">Wills, Trusts & Estates</option>
+                                <option value="11">Government</option>
+                                <option value="12">Intellectual Property</option>
                             </select>
                         </div>
                         <span id="helpBlock" class="help-block">Can't find your category? <a href="#">Click here.</a></span>
@@ -207,6 +216,95 @@
             </div>
         </div>
     </footer>
+
+    <!--Modal-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 id="step-3" class="modal-title">Which <b>Family</b> law issue(s) apply to your case?</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <form>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        Adoption
+                                    </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            Guardianship
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            Child Custody and Visitation
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            Paternity
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            Child Support
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            Separations
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            Divorce
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            Spousal Support or Alimony
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-primary legal-button">Find A Lawyer Now</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     <!-- jQuery -->
     <script src="assets/js/jquery.js"></script>

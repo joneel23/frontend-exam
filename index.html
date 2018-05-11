@@ -14,11 +14,17 @@
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="assets/css/styles.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Autocomplete CSS file -->
+    <link rel="stylesheet" href="library/autocomplete/easy-autocomplete.min.css">
+
+    <!-- Autocomplete Additional CSS Themes file - not required-->
+    <link rel="stylesheet" href="library/autocomplete/easy-autocomplete.themes.min.css">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/styles.css" rel="stylesheet">
 
 </head>
 
@@ -76,7 +82,11 @@
                         <div class="form-group">
                             <label id="labelCategory" for="category">Choose a category:</label>
                             <select id="category" placeholder="Click to choose a legal category" class="form-control">
-                                <option>Click to choose a legal category</option>
+                                <!--<option>Click to choose a legal category</option>-->
+                                <option value="" selected disabled>Click to choose a legal category</option>
+                                <option value="">A</option>
+                                <option value="">B</option>
+                                <option value="">C</option>
                             </select>
                         </div>
                         <span id="helpBlock" class="help-block">Can't find your category? <a href="#">Click here.</a></span>
@@ -200,6 +210,12 @@
 
     <!-- jQuery -->
     <script src="assets/js/jquery.js"></script>
+
+    <!-- Autocomplete JS file -->
+    <script src="library/autocomplete/jquery.easy-autocomplete.min.js"></script>
+
+    <!--Custom JS-->
+    <script src="assets/js/custom.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/js/bootstrap.min.js"></script>

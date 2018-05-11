@@ -65,7 +65,9 @@ header{
     padding-left: 7px;
     color: #001e5a;
 }
-
+.accredited{
+    text-align: right;
+}
 
 /*Set Font Face Gotham*/
 @font-face {

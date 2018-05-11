@@ -24,6 +24,48 @@ header{
     color: #001c63;
 }
 
+/*Footer*/
+.footer-container{
+    max-height: 182px;
+    margin: 22px 0 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+.footer-logo img {
+    height: 39px;
+}
+.footer-credits{
+    text-align: center;
+    color: #929ba4;
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer-credits a,.footer-credits a:hover {
+    color: #929ba4;
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer-credits .list-inline{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.footer-credits .text-muted{
+    color: #929ba4;
+}
+.footer-menu-divider{
+    font-size: 28px;
+    display: inline;
+    position: relative;
+    top: 3px;
+}
+.footer-tag{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 7px;
+    color: #001e5a;
+}
+
 
 /*Set Font Face Gotham*/
 @font-face {

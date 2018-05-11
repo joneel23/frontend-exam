@@ -53,8 +53,8 @@
             </div>
         </div>
     </header>
-    <hr/>
-    <div class="intro-header">
+
+    <div class="intro-container">
 
         <!--Container-->
         <div class="container">
@@ -63,12 +63,12 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>Find a Lawyer for your Legal Issue</h1>
-                        <h2>Fas, Free and Confidential</h2>
+                        <h2>Fast, Free and Confidential</h2>
                     </div>
                 </div>
                 <div class="col-lg-6">
 
-                    <form>
+                    <form id="search-lawyer">
                         <div class="form-group">
                             <label for="searchZipcode">Enter Zip Code or City:</label>
                             <input type="text" class="form-control" id="searchZipcode" placeholder="Does not have to where you live">
@@ -84,63 +84,66 @@
 
                 </div>
                 <div class="col-lg-5">
-                    <div id="client-reviews">
+                    <div id="review-wrapper">
                         <div class="review-description">
                             <h3>Client review LegalMatch lawyers</h3>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="profile">
-                                    <span class="img"><img src="assets/images/mitchell.png" title="Mitchell"/></span>
-                                    <span class="name">Mitchell M.</span>
-                                    <span class="location">Cherry Hill, NJ</span>
+                        <div id="client-reviews">
+
+                            <div class="row">
+
+                                <div class="col-lg-3">
+                                    <div class="profile">
+                                        <span class="img"><img src="assets/images/mitchell.png" title="Mitchell"/></span>
+                                        <span class="name">Mitchell M.</span>
+                                        <span class="location">Cherry Hill, NJ</span>
+                                    </div>
                                 </div>
+                                <div class="col-lg-9">
+                                    <div class="reviews">
+                                        <span class="review-title">Family Law <span class="star-rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></span>
+                                        <span class="review-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet placerat condimentum...</span>
+                                        <span class="review-more">Read Review <img src="assets/images/read-more.png" /></span>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="col-lg-8">
-                                <div class="reviews">
-                                    <span class="review-title">Family Law <span class="star-rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></span>
-                                    <span class="review-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet placerat condimentum...</span>
-                                    <span class="review-more">Read Review <img src="assets/images/read-more.png" /></span>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="profile">
+                                        <span class="img"><img src="assets/images/joel.png" title="Joel"/></span>
+                                        <span class="name">Joel C.</span>
+                                        <span class="location">Little Rock, AK</span>
+                                    </div>
                                 </div>
+                                <div class="col-lg-9">
+                                    <div class="reviews">
+                                        <span class="review-title">Job & Employment Law <span class="star-rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></span>
+                                        <span class="review-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet placerat condimentum...</span>
+                                        <span class="review-more">Read Review <img src="assets/images/read-more.png" /></span>
+                                    </div>
+                                </div>
+
                             </div>
 
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="profile">
+                                        <span class="img"><img src="assets/images/brigida.png" title="Brigida"/></span>
+                                        <span class="name">Brigida R.</span>
+                                        <span class="location">Dallas, TX</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="reviews">
+                                        <span class="review-title">Family Law <span class="star-rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></span>
+                                        <span class="review-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet placerat condimentum...</span>
+                                        <span class="review-more">Read Review <img src="assets/images/read-more.png" /></span>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="profile">
-                                    <span class="img"><img src="assets/images/joel.png" title="Joel"/></span>
-                                    <span class="name">Joel C.</span>
-                                    <span class="location">Little Rock, AK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="reviews">
-                                    <span class="review-title">Job & Employment Law <span class="star-rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></span>
-                                    <span class="review-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet placerat condimentum...</span>
-                                    <span class="review-more">Read Review <img src="assets/images/read-more.png" /></span>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="profile">
-                                    <span class="img"><img src="assets/images/brigida.png" title="Brigida"/></span>
-                                    <span class="name">Brigida R.</span>
-                                    <span class="location">Dallas, TX</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="reviews">
-                                    <span class="review-title">Family Law <span class="star-rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></span>
-                                    <span class="review-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet placerat condimentum...</span>
-                                    <span class="review-more">Read Review <img src="assets/images/read-more.png" /></span>
-                                </div>
-                            </div>
-
-                        </div>
-
                     </div>
                 </div>
             </div>

@@ -1,4 +1,29 @@
 
+/*Header*/
+header{
+    max-height: 90px;
+    padding: 13px 0;
+}
+.h-section{
+    display: flex;
+    justify-content: left;
+    vertical-align: text-bottom;
+}
+.tag-line{
+    margin-top: 31px;
+    text-transform: uppercase;
+    color: #001e5a;
+}
+.check-items li {
+    list-style: none;
+}
+.check-items li .fa{
+    color: #3e9d03;
+}
+.check-items .desc{
+    color: #001c63;
+}
+
 
 /*Set Font Face Gotham*/
 @font-face {
